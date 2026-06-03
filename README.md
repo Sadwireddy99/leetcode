@@ -1,1 +1,5 @@
-![LeetCode Stats](https://leetcard.jacoblin.cool/sadwireddy99)
+# My DSA Journey
+
+## LeetCode Stats
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/SadwiReddy)

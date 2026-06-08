@@ -12,3 +12,4 @@
 |----------|
 | [0001-two-sum](./0001-two-sum) |
 | [0009-palindrome-number](./0009-palindrome-number) |
+| [0009-remove-duplicates-from-sorted-array](./0026-remove-duplicates-from-sorted-array) |

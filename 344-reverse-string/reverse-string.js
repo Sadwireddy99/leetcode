@@ -17,18 +17,25 @@
 
 
                             //June 9th
+var reverseString = function(s) {
+    let n = Math.floor(s.length/2);
+    for(let i=0; i<n ; i++){
+        let temp = s[i];
+        s[i] = s[s.length - 1-i];
+        s[s.length-1-i] = temp;
+    }
+    return s;
+}
+
+//Tc : O(n)
+//SC : O(1)
+
+
 // var reverseString = function(s) {
-//     let n = Math.floor(s.length/2);
-//     for(let i=0; i<n ; i++){
-//         let temp = s[i];
-//         s[i] = s[s.length - 1-i];
-//         s[s.length-1-i] = temp;
-//     }
-//     return s;
+//     let s1= s.reverse();
+//     return s1;
 // }
 
 
-var reverseString = function(s) {
-    let s1= s.reverse();
-    return s1;
-}
+//Tc : O(n);
+//Sc : O(n);

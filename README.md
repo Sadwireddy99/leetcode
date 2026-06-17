@@ -18,5 +18,6 @@
 | [0088-merge-sorted-array](https://leetcode.com/problems/merge-sorted-array/) |
 | [0283-move-zeroes](https://leetcode.com/problems/move-zeroes/) |
 | [0485-max-consecutive-ones](https://leetcode.com/problems/max-consecutive-ones/) |
+| [0268-missing-number](https://leetcode.com/problems/missing-number/) |
 
 

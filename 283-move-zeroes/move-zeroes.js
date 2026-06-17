@@ -2,35 +2,35 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var moveZeroes = function(nums) {
-    let x=0;
-    for(let i=0; i< nums.length ; i++){
-        if(nums[i] !==0){
-         let temp =nums[x];
-            nums[x] = nums[i];
-            nums[i] = temp;
-            x++;
-            
-  }
- }
-    return nums;
-};
-
-//                     //Approach 2 
 // var moveZeroes = function(nums) {
 //     let x=0;
 //     for(let i=0; i< nums.length ; i++){
 //         if(nums[i] !==0){
-//            // let temp =nums[x];
+//          let temp =nums[x];
 //             nums[x] = nums[i];
-//            // nums[i] = temp;
+//             nums[i] = temp;
 //             x++;
             
 //   }
-//     }
-//   for(let i=x; i<nums.length  ; i++){
-//     nums[i] =0;
-  
 //  }
 //     return nums;
 // };
+
+//                     //Approach 2 
+var moveZeroes = function(nums) {
+    let x=0;
+    for(let i=0; i< nums.length ; i++){
+        if(nums[i] !==0){
+           // let temp =nums[x];
+            nums[x] = nums[i];
+           // nums[i] = temp;
+            x++;
+            
+  }
+    }
+  for(let i=x; i<nums.length  ; i++){
+    nums[i] =0;
+  
+ }
+    return nums;
+};
